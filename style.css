@@ -55,7 +55,38 @@ nav{
   color: #474747;
 }
 
-section h2{
+#bannner{
+  /* border: 1px solid red; */
+  margin: 46px 40px 0 229px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#bannner .banner-content{
+  max-width: 585px;
+}
+
+#bannner .banner-content h2{
   color: #474747;
   font-size: 45px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+
+
+#bannner .banner-content h1{
+  font-size: 74px;
+  font-weight: 800;
+  margin: 0 auto 20px 0;
+  color: #181818;
+
+}
+
+#bannner .banner-content p{
+  font-size: 018px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #757575;
 }
