@@ -6,6 +6,7 @@
 }
 
 .logo h2{
+  display: flex;
   font-size: 45px;
   font-weight: 900;
 }
@@ -25,13 +26,35 @@
   font-weight: bolder;
 }
 
+.section-heading{
+  max-width: 827px;
+  text-align: center;
+}
+
+.section-heading h2{
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  
+}
+
+.section-heading p{
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #757575;
+  line-height: 30px;
+}
+
 
 /* Main styles */
 
 header{
   background-color: #FFF8F3;
+  background: url(images/developer.png), url(images/header_bg.png), #FFF8F3;
+  background-position: top left, bottom right;
+  background-repeat: no-repeat ;
   padding-top: 50px;
-}
+} 
 
 nav{
   width: 71%;
@@ -55,19 +78,19 @@ nav{
   color: #474747;
 }
 
-#bannner{
-  /* border: 1px solid red; */
+#banner{
+  
   margin: 46px 40px 0 229px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-#bannner .banner-content{
+#banner .banner-content{
   max-width: 585px;
 }
 
-#bannner .banner-content h2{
+#banner .banner-content h2{
   color: #474747;
   font-size: 45px;
   margin-bottom: 5px;
@@ -76,17 +99,53 @@ nav{
 
 
 
-#bannner .banner-content h1{
-  font-size: 74px;
+#banner .banner-content h1{
+  font-size: 65px;
   font-weight: 800;
-  margin: 0 auto 20px 0;
+  margin-bottom: 20px;
   color: #181818;
 
 }
 
-#bannner .banner-content p{
-  font-size: 018px;
+#banner .banner-content p{
+  font-size: 18px;
   font-weight: 400;
   line-height: 30px;
   color: #757575;
+  margin-bottom: 30px;
+}
+
+#banner .banner-image img {
+  max-width: 584px;
+  vertical-align: middle;
+}
+
+#about{
+   padding: 131px 156px;
+  margin: 130px 200px 0 200px ;
+  background-color: #FFF8F3;
+}
+
+#about .about-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#about .about-container .about-info{
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.about-info .info-card p{
+  line-height: 30px;
+  font-size: 20px;
+  color: #757575;
+
+}
+
+.about-info .info-card p{
+  color: #474747;
+  font-size: 20px;
 }
